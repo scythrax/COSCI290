@@ -10,6 +10,15 @@
  public class TextRpg{
  
  public static void main(String[] args){
+   
+       System.out.println( " __________            ___.   .__              ._.  \n"
+                      + " \\____    /____   _____\\_ |__ |__| ____   _____| |  \n"
+                      + "    /     //  _ \\ /     \\| __ \\|  |/ __ \\ /  ___/ | \n"
+                      + "   /     /(  <_> )  Y Y  \\ \\_\\ \\  \\  ___/ \\___ \\ \\| \n"
+                      + "  /_______ \\____/|__|_|  /___  /__|\\___  >____  >__   \n"
+                      + "         \\/           \\/    \\/        \\/     \\/ \\/    ");
+
+   
  int numberofSurvivors = 17;
  double avgDEATHS = 200;
  String name = "";
