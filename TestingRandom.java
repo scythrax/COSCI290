@@ -1,3 +1,10 @@
+/*
+  John Paul De Jesus
+  Co Sci 290
+  Lab 3
+  February 20, 2018
+ */
+
 public class TestingRandom{
 
  
