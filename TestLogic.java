@@ -2,27 +2,31 @@
   John Paul De Jesus
   Co Sci 290
   
-  Topics:
+  Topics: 
     -multi-way if-else
     -logical operators
-    -symbolic logical
-    
+    -symbolic logic
+    -compound/complex conditionals
 */
 
 import java.util.Scanner;
 public class TestLogic{
   
-  //prompt the user to enter in a grade
+  //entry point of application
   public static void main(String[] args){
     
     //Setting up Scanner for user input
     Scanner input = new Scanner(System.in);
-    int grade = 90;
+    
+    //prompt the user to enter in a grade
+    System.out.println("Enter in a grade: ");
+    
+    int grade = input.nextInt();
     
     //simple if
     if(grade >= 90){
-      System.out.println("A");
-   
+      System.out.println("A");  
+    }
     
     //two-way if-else
     if(grade < 90){
@@ -32,7 +36,7 @@ public class TestLogic{
       System.out.println("grade is an A");
     }
     
-    //multi if-else-elseif
+    //multi if - else if - else
     if(grade >= 90){
       System.out.println("A");
     }
@@ -45,7 +49,7 @@ public class TestLogic{
     else{
       System.out.println("F");
     }
-      
+    
     /*
       Logical operators
       
@@ -54,7 +58,7 @@ public class TestLogic{
       == - is equal to?
       && - AND
       || - OR
-      
+    
     */
     
     //using if-else, write code that checks whether
@@ -65,16 +69,17 @@ public class TestLogic{
       //nested-if
       if(grade >= 90){
         System.out.println("Wow, you got an A!");
-        
       }
-    }  
+
+    }
     else if(grade < 80 && grade >= 70){
-      System.out.println("This is a average. ");
+      System.out.println("This grade is average.");
     }
     else{
       System.out.println("This is a bad grade");
-    }  
-      
+    }
+    
+    
   }
-
+  
 }
