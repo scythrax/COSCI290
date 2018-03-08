@@ -18,8 +18,8 @@ public class Practice1{ // name of the java file
     // void : it is a return type i.e it does not return any value. main() : it is a method or a function name
     
     Scanner input = new Scanner(System.in); // needs import java.util.Scanner to be able to use this statement which allows user input
-    int operand1; // Variables of type int store the actual binary value for the integer you want for operand1.
-    int operand2; // Variables of type int store the actual binary value for the integer you want to operand2.
+    int operand1; // Variables of type int store the actual binary value for the integer you want for operand1 to be manipulated.
+    int operand2; // Variables of type int store the actual binary value for the integer you want to operand2 to be manipulated.
     
     System.out.println("Please enter in a whole number..."); // type in a whole number for operand1
     
