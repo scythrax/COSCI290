@@ -1,0 +1,19 @@
+John Paul De Jesus
+Co Sci 290
+
+
+Zombies Theme
+
+
+Objects/Classes I would use in text adventure:
+Loops: do, while, for
+else, if, else if
+int variables
+double variables
+math operations
+
+
+List of objects:
+Zombie
+Weapons: Crossbow, Spear, Longsword, Rifle
+Food: Candy bars, 
