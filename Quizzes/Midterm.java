@@ -35,7 +35,7 @@ public class Midterm{
     
     
                        
-    if (fifth == first || third > number || second == fourth || second > number)
+    if (fifth == first && second == fourth)
     {
     
     System.out.println(number + " is a palindrome ");
