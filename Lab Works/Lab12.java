@@ -1,6 +1,6 @@
 /* John Paul De Jesus
    Co Sci 290
-	 Lab 12
+   Lab 12
 */
 
 import java.util.Scanner; //is a Java object that allows you take user input
@@ -17,7 +17,7 @@ public class Lab12{ // name of the class file
 	
 	  int num = input.nextInt(); // reads the incoming input
 
-    if(num % 2 == 0){ // If statement and assign modulus which divides left-hand operand by right-hand operand and returns remainder.
+    if(num % 2 == 0){  // If statement and assign modulus which divides left-hand operand by right-hand operand and returns remainder.
 
 	    System.out.println("The number " + num  + " is even..."); // prints the message to output
 	
