@@ -17,14 +17,21 @@ public class Lab13{
     int a = 1;
     int b = 3;
     int c = 0;
+    int d = -5;
     
-    //print the sum of a and b
+    //print the operations of a and b
     System.out.println("Operations on a and b: ");
     System.out.println("addition = " + add(a, b));
     System.out.println("subtraction = " + subtract(a, b));
     System.out.println("multipication = " + multiply(a, b));
     System.out.println("division = " + divide(a, b));
     
+    //print the operations of c and d
+    System.out.println("Operations on c and d: ");
+    System.out.println("addition = " + add(c, d));
+    System.out.println("subtraction = " + subtract(c, d));
+    System.out.println("multipication = " + multiply(c, d));
+    System.out.println("division = " + divide(c, d));
     
   }//end of main
   
