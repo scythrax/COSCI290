@@ -42,17 +42,31 @@ public class Lab18{
   // Write a program that reads an integer and displays all its smallest factors in increasing order. 
   // For example, if the input integer is 120, the output should be as follows: 2, 2, 2, 3 , 5
   
-  int factor = 2;
+  System.out.print("Enter an integer: ");
   
-  while (factor <= n) {
-  if (n % factor == 0)
-  break;
+  int number = input.nextInt();
+  
+  int index = 2;
+  
+  while(number / index != 1){
     
-    factor++;
-    
+    if(number % index == 0){
+      
+      System.out.print(index + ", ");
+      
+      number /= index;
+      
     }
-  
-  System.out.println("The smallest factor other than 1 for "
-                    + n + " is " + factor);
+    
+    else{
+      
+      index++;
+    }
+      
+      
+    
+  System.out.println(number + ".");  
+    
+  }  
   
 }//end of class
