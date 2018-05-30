@@ -18,6 +18,7 @@ public class Quiz3{
     System.out.println(8.75 / 0.7583); // 14 kilometers is 8.75 miles while 45 minutes and 30 seconds is 0.7583 hour
     
   }
+  
 }
 
   
