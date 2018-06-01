@@ -29,8 +29,18 @@ public class Lab15{
     System.out.print("Enter the sum of the digits: ");
     
     int value = input.nextInt();
-    
+
     System.out.println("The sum of the digits in an integer: " + sumDigits(value));
+    
+    System.out.print("Enter the three numbers: ");
+    
+    double num1 = input.nextDouble();
+    
+    double num2 = input.nextDouble();
+    
+    double num3 = input.nextDouble();
+    
+    displaySortedNumbers(num1, num2, num3);
     
   }
   
@@ -53,16 +63,6 @@ public class Lab15{
   // 6.5 (Sort three numbers)
   // Write a method with the following header to display three numbers in increasing order:
   // public static void displaySortedNumbers( double num1, double num2, double num3)
-  
-  System.out.print("Enter the three numbers: ");
-    
-    double number1 = input.nextDouble();
-    
-    double number2 = input.nextDouble();
-    
-    double number3 = input.nextDouble();
-    
-    displaySortedNumbers(number1, number2, number3);
   
   public static void displaySortedNumbers(double num1, double num2, double num3){
     

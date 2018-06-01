@@ -21,52 +21,48 @@ public class Lab18{
     for(int i = 100; i <= 1000; i++){ //i++ is the same as i = i + 100
       
       if(i % 5 == 0 && i % 6 == 0){ // i is divisble by 5 and i is divisible by 6
-        
+       
         counter++;
-            
+      }
       System.out.print(i + " ");
-          
+    }     
       if(counter % 10 == 0){
         
          System.out.println();    
         
       }          
         
-      }
       
-    } 
+      
+     
  
-  }//end of main
-  
+
   // 5.16 (Find the factors of an integer)
   // Write a program that reads an integer and displays all its smallest factors in increasing order. 
   // For example, if the input integer is 120, the output should be as follows: 2, 2, 2, 3 , 5
   
   System.out.print("Enter an integer: ");
   
-  int number = input.nextInt();
-  
-  int index = 2;
-  
-  while(number / index != 1){
-    
-    if(number % index == 0){
+    int num = input.nextInt();
+
+    input.close();
+
+    for(int i = 2; i <= num;){
+
+        if(num % i == 0){
+          
+            System.out.print(i + " ");
+          
+            num /= i;
+          
+         }
       
-      System.out.print(index + ", ");
-      
-      number /= index;
+         else{
+          
+            i++;
+        }
       
     }
-    
-    else{
-      
-      index++;
-    }
-      
-      
-    
-  System.out.println(number + ".");  
-    
-  }  
-  
-}//end of class
+  }
+}
+
